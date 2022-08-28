@@ -1,3 +1,5 @@
+//import { questions } from "./questions.js";
+
 function revelarResposta() {
     var resposta = document.querySelector("#resposta");
     resposta.classList.toggle("blur");
@@ -29,7 +31,17 @@ function buscarInformacao() {
     })
     .then(function (resultadoJson) {
         proximaPergunta(resultadoJson);
-});
-}
+    });
+} 
 
 window.addEventListener("load", buscarInformacao);
+
+/*
+function buscarInformacao() {
+    var valorAleatorio = Math.floor(Math.random() * questions.length);
+    var perguntaAleatoria = questions[valorAleatorio];
+    proximaPergunta(perguntaAleatoria);
+}
+
+buscarInformacao();
+*/
