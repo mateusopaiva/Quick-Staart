@@ -1,4 +1,4 @@
-//import { questions } from "./questions.js";
+import { questions } from "./questions.js";
 
 function revelarResposta() {
     var resposta = document.querySelector("#resposta");
@@ -24,6 +24,7 @@ function proximaPergunta(proximaPergunta) {
     pergunta.appendChild(cardDiv);
 }
 
+/*
 function buscarInformacao() {
     fetch("https://flash.quickstaart.com/random")
     .then(function (resultado) {
@@ -34,14 +35,14 @@ function buscarInformacao() {
     });
 } 
 
-window.addEventListener("load", buscarInformacao);
+window.addEventListener('load', buscarInformacao)
+*/
 
-/*
 function buscarInformacao() {
     var valorAleatorio = Math.floor(Math.random() * questions.length);
     var perguntaAleatoria = questions[valorAleatorio];
     proximaPergunta(perguntaAleatoria);
 }
 
+
 buscarInformacao();
-*/
