@@ -1,9 +1,13 @@
 import { questions } from "./questions.js";
 
-function revelarResposta() {
+var revelarResposta = document.querySelector('#revelarResposta')
+revelarResposta.onclick = function revelarResposta() {
     var resposta = document.querySelector("#resposta");
     resposta.classList.toggle("blur");
 }
+
+var atualizarDadosPergunta = document.querySelector('#atualizarPergunta')
+atualizarDadosPergunta.onclick = buscarInformacao
 
 function proximaPergunta(proximaPergunta) {
     var pergunta = document.querySelector("#cardContainer");
@@ -43,6 +47,5 @@ function buscarInformacao() {
     var perguntaAleatoria = questions[valorAleatorio];
     proximaPergunta(perguntaAleatoria);
 }
-
 
 buscarInformacao();
