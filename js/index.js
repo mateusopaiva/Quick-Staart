@@ -18,7 +18,7 @@ function proximaPergunta(proximaPergunta) {
     cardDiv.innerHTML = `
     <div class="card-cabecalho centralizar">
         <!--Pergunta-->
-        <h1 class="card-titulo">O que é ${proximaPergunta.title}?</h1>
+        <h1 class="card-titulo">${proximaPergunta.title}?</h1>
     </div>
     <div id="resposta" class="card-conteudo blur">
         <!--Resposta-->

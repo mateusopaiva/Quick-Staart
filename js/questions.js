@@ -10,7 +10,7 @@ export var questions = [
             "O processo de pensamento envolvido na formulação de um problema e na criação de sua solução, de forma que alguém consiga executar a mesma várias vezes."
     },
     {
-        title: "Documentação",
+        title: "O que é Documentação",
         description:
             "Manual que dita a forma de uso de uma ferramenta ou linguagem de programação, com exemplos de uso e todas as funcionalidades disponíveis para aquele recurso."
     },
