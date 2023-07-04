@@ -21,6 +21,6 @@
   <img align="center" alt="javascript" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/>
 </div>          
           
-## :raising_hand_man: Autores
+## :raising_hand: Autores
 | [<img src="https://user-images.githubusercontent.com/106707389/187272671-1f5d9e1e-ba76-4128-9def-c9c8203c81b0.png" width=115><br><sub>Staart</sub>](https://staart.com) |
 | :---: |
