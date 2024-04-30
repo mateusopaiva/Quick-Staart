@@ -87,9 +87,9 @@ body {
 }
 
 .gradiente {
-    background: linear-gradient(89deg, #8c7fbc, #193380, #5c033f);
+    background: linear-gradient(45deg, #193380, #5c033f);
     background-size: 180% 180%;
-    animation: gradient-animation 3s ease infinite;
+    animation: gradient-animation 5s ease infinite;
 }
 
 @keyframes gradient-animation {
